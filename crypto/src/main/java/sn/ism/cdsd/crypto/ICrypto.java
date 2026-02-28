@@ -11,7 +11,7 @@ public interface ICrypto {
     String bytesToHexString(byte[] bytes);
     byte[] hexStringToBytes(String hexString);
 
-    void saveHexkey(String hexKey, String filePath);
+    void saveHexkey(Key hexKey, String filePath);
     Key loadHexKey(String filePath, String password);
 
 
